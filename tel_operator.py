@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import unittest
-operators = {'Operator A' : {'46732': '1.1','463':'1.3','376':'2.2'}} #Declare multiple operators with thier respective price lists in nested dictionary
+operators = {'Operator A' : {'46732': '1.1','467':'1.3','376':'2.2','467325':'5300','4673':'333'},'Operator B':{'4673':'1.0','46':'0.9'},'Operator C':{'463':'1.1','467325':'0.01','4673258':'0.02'}} #Declare multiple operators with thier respective price lists in nested dictionary
 '''
 format for manipulating operators
 operators = {'Operator A':{'prefix' : 'price', 'prefix2':'price2'.....................},'Opearor B':{'prefix' : 'price', 'prefix2':'price2'.....................}...............................}
